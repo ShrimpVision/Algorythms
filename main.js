@@ -19,3 +19,17 @@ function findNemo(array) {
 
 findNemo(nemo); // O(n) --> Linear Time
 
+// *********************
+
+const boxes = [0,1,2,3,4,5];
+
+// Number of operation is equl to lines of code in block, in this case O(2), 
+// Usualy denoted as O(1) as constants are dropped
+function logFirstTwoBoxes(boxes) {
+    console.log(boxes[0]); // O(1)
+    console.log(boxes[1]); // O(1)
+}
+
+logFirstTwoBoxes(boxes) // O(2) --> Constant Time
+
+// *********************
